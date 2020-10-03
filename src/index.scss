@@ -17,6 +17,15 @@ $low-poly-green: #00FF27;
   align-items: center;
 }
 
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(rgba(34, 33, 33, 0.75),rgba(34, 33, 33, 0.75)), url('./img/retrowave-background.jpg');
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+}
+
 .title{
   grid-area: title;
   height: 100%;
@@ -73,14 +82,4 @@ $low-poly-green: #00FF27;
   height: 100%;
 }
 
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(rgba(34, 33, 33, 0.75),rgba(34, 33, 33, 0.75)), url('./img/retrowave-background.jpg');
-  background-size: cover;
-}
 
-h1, h4, h5, h6 {
-  font-family: 'Press Start 2P', cursive;
-}

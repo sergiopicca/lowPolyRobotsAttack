@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>This will be low poly robots attack doc!</h1>
+        <h1>This was a test!</h1>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

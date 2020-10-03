@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+$low-poly-pink: #FF83CF;
+$low-poly-purple: #D11087;
+$low-poly-shock: #FF3CC3;
+$low-poly-green: #00FF27;
+
+#root{
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  grid-template-areas: 
+  "title"
+  "level-selection";
+  justify-items: stretch;
+  align-items: center;
+}
+
+.title{
+  grid-area: title;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.title div {
+  margin-top: 16vh;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom: 4vh;
+}
+
+/**
+ * The tile of the project will shine 
+ */
+.title h1 {
+  font-size: 60px;
+}
+
+.glow {
+  font-size: 80px;
+  color: $low-poly-pink;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 6px 3px $low-poly-shock, 0 6px 8px $low-poly-shock, 0 8px 10px $low-poly-shock, 0 12px 40px $low-poly-shock;
+  }
+  to {
+    text-shadow: 0 6px 3px $low-poly-purple, 0 6px 8px $low-poly-purple, 0 8px 10px $low-poly-purple, 0 12px 40px $low-poly-purple;
+  }
+}
+
+.title h4 {
+  color: $low-poly-pink;
+}
+.title h5{
+  color: $low-poly-purple;
+  font-size: 24px;
+}
+.title h6{
+  color: white;
+}
+
+.lvl-selection{
+  grid-area: level-selection;
+  background-color: black;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(rgba(34, 33, 33, 0.75),rgba(34, 33, 33, 0.75)), url('./img/retrowave-background.jpg');
+  background-size: cover;
+}
+
+h1, h4, h5, h6 {
+  font-family: 'Press Start 2P', cursive;
+}

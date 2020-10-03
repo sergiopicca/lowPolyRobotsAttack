@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.scss';
+import Title from  './Title'
+import Selection from './Selection'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Title />
+    <Selection />
   </React.StrictMode>,
   document.getElementById('root')
 );

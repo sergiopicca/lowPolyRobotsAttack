@@ -165,3 +165,34 @@ body {
   background-color: $low-poly-blue;
   border: none;
 }
+
+.play{
+  border: 2px solid $low-poly-pink;
+}
+
+.play:hover{
+  -webkit-animation: glow-card-pink 1s ease-in-out infinite alternate;
+  -moz-animation: glow-card-pink 1s ease-in-out infinite alternate;
+  animation: glow-card-pink 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow-card-pink {
+  from {
+    box-shadow: 0 6px 3px $low-poly-dark, 0 6px 8px $low-poly-dark, 0 8px 10px $low-poly-dark, 0 12px 40px $low-poly-dark;
+  }
+  to {
+    box-shadow: 0 6px 3px $low-poly-pink, 0 6px 8px $low-poly-pink, 0 8px 10px $low-poly-pink, 0 12px 40px $low-poly-pink;
+  }
+}
+
+.play h1{
+  color: $low-poly-shock;
+}
+
+.card.play h4{
+  color: rgba($color: #000000, $alpha: 0.0);
+}
+
+.play button{
+  background-color: $low-poly-shock;
+}

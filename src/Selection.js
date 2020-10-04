@@ -11,10 +11,10 @@ class Selection extends React.Component {
    return (
    <div className="lvl-selection">
     <div className="card-container">
-     {new Card(firstCard).render()}
-     {new Card(secondCard).render()}
-     {new Card(thirdCard).render()}
-     {new Card(playCard).render()}
+     {new Card(firstCard).renderCard()}
+     {new Card(secondCard).renderCard()}
+     {new Card(thirdCard).renderCard()}
+     {new Card(playCard).renderPlayCard()}
     </div>
    </div>)
  }

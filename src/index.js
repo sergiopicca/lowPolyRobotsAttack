@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import App from './App';
+import AuthorsInfo from './AuthorsInfo';
 import './index.scss';
-import Title from  './Title'
-import Selection from './Selection'
-import About from './About'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <About />
-    <Title />
-    <Selection />
-  </React.StrictMode>,
+  <Router>
+    <Switch>
+      <Route path="/about"><AuthorsInfo /></Route>
+      <Route path="/"><App /></Route>
+    </Switch>
+  </Router>, 
   document.getElementById('root')
 );
 
@@ -19,3 +20,4 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+

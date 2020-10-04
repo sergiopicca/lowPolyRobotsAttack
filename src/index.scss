@@ -10,9 +10,10 @@ $low-poly-dark: #303035;
 
 #root{
   display: grid;
-  grid-template-rows: auto 60%;
+  grid-template-rows: auto auto auto;
   grid-template-columns: repeat(auto-fit,  1fr);
   grid-template-areas: 
+  "about"
   "title"
   "level-selection";
   justify-items: stretch;
@@ -26,6 +27,19 @@ body {
   background-image: linear-gradient(rgba(34, 33, 33, 0.75),rgba(34, 33, 33, 0.75)), url('./img/retrowave-background.jpg');
   background-size: cover;
   font-family: 'Press Start 2P', cursive;
+}
+/**
+ * Style of the about section 
+ */
+.about {
+  grid-area: about;
+  justify-self: end;
+  color: white;
+  padding: 1rem;
+}
+.about h5{
+  margin-right: 2rem;
+  text-decoration: underline;
 }
 
 /**

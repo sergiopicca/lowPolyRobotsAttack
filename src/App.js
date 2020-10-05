@@ -2,7 +2,7 @@ import React from 'react';
 import Title from  './Title'
 import Selection from './Selection'
 import About from './About'
-
+import './index.scss';
 
 class App extends React.Component {
   render() {

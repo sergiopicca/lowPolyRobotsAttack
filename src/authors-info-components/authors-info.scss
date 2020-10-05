@@ -1,29 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+$low-poly-pink: #FF83CF;
+$low-poly-purple: #D11087;
+$low-poly-shock: #FF3CC3;
+$low-poly-green: #00FF27;
+$low-poly-blue: #00B9F0;
+$low-poly-dark: #303035;
+$low-poly-black: #40383C;
+
 .authors-section{
  display: grid;
- grid-template-rows: 100%;
- grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
- grid-template-areas: 
- "ghost authors";
+ grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
  justify-items: stretch;
  align-items: center;
- border: 2px solid white;
+ justify-content: stretch;
+ justify-items: stretch;
 }
 
 .information-col{
- grid-area: authors;
- border: 2px solid red;
+ background-color: $low-poly-black;
+}
+
+.information-col h1{
+ margin: 4rem;
+ font-size: 4rem;
+ color: $low-poly-pink;
+ text-shadow: 0 6px 3px $low-poly-shock, 0 6px 8px $low-poly-shock, 0 8px 10px $low-poly-shock, 0 12px 40px $low-poly-shock;
 }
 
 .author-desc{
  display: grid;
- grid-template-rows: auto auto auto;
- grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+ grid-template-rows: 20% 40% 35%;
+ grid-template-columns: 18rem 1fr;
  grid-template-areas: 
  "img author"
  "img task"
  "img link";
- margin-top: 5rem;
- margin-bottom: 10rem;
+ margin-top: 4rem;
+ margin-bottom: 4rem;
+ color: white;
 }
 
 .img-container {
@@ -32,21 +47,73 @@
  align-self: center;
 }
 
+.img-container img{
+ height: 15rem;
+ width: 15rem;
+}
+
 .author-name{
  grid-area: author;
 }
 
 .author-task{
  grid-area: task;
+ font-family: 'VT323', monospace;
+ font-size: 1.5rem;
+ width: 90%;
 }
 
 .author-desc h5{
  grid-area: link;
+ font-family: 'VT323', monospace;
+ font-size: 1.5rem;
 }
 
-
+/**
+ * Style of the rightside of the page where the ghost 
+ * leaves his message
+ */
 .ghost-col{
- grid-area: ghost;
- border: 2px solid greenyellow;
+ background-image: linear-gradient(rgba(99, 91, 91, 0.75), rgba($color: $low-poly-black, $alpha: 0.75)), url('../img/ghost-background.png');
+ background-color: black;
+ color: white;
  height: 100%;
+ padding: 2rem;
+}
+
+.ghost-col .ghost-desc, .ghost-col h4{
+ text-align: center;
+ text-shadow: 0 6px 3px $low-poly-shock, 0 6px 8px $low-poly-shock, 0 8px 10px $low-poly-shock, 0 12px 40px $low-poly-shock;
+}
+
+.ghost-col div{
+ text-align: center;
+}
+
+.ghost-col svg{
+ width: 40%;
+ height: 40%;
+ margin: 1rem;
+ -webkit-animation: glow-ghost 1s ease-in-out infinite alternate;
+ -moz-animation: glow-ghost 1s ease-in-out infinite alternate;
+ animation: glow-ghost 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow-ghost {
+ from {
+  filter: drop-shadow(0 6px w0px $low-poly-shock);
+ }
+ to {
+  filter: drop-shadow(0 6px 20px $low-poly-purple);
+ }
+}
+
+.ghost-col h5{
+ width: 90%;
+ margin: 2rem;
+}
+
+.ghost-col h4{
+ margin-top: 8rem;
+ margin-bottom: 2rem;
 }

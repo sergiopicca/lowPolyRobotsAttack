@@ -7,8 +7,8 @@ class AuthorsInfo extends React.Component {
   render() {
     return (
       <div className='authors-section'>
-        <InformationCol />
         <GhostCol />
+        <InformationCol />
       </div>
     );
   }

@@ -8,6 +8,16 @@ $low-poly-green: #00FF27;
 $low-poly-blue: #00B9F0;
 $low-poly-dark: #303035;
 
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(34, 33, 33, 0.75),rgba(34, 33, 33, 0.75)), url('./img/retrowave-background.jpg');
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+}
+
 .app{
   display: grid;
   grid-template-rows: auto auto auto;
@@ -16,17 +26,9 @@ $low-poly-dark: #303035;
   "about"
   "title"
   "level-selection";
+  justify-content: stretch;
   justify-items: stretch;
-  align-items: center;
-}
-
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(rgba(34, 33, 33, 0.75),rgba(34, 33, 33, 0.75)), url('./img/retrowave-background.jpg');
-  background-size: cover;
-  font-family: 'Press Start 2P', cursive;
+  grid-gap: 1em;
 }
 /**
  * Style of the about section 
@@ -38,13 +40,19 @@ body {
   padding: 1rem;
 }
 
-.about h5{
-  margin-right: 2rem;
+a{
+  color: white;
   text-decoration: underline;
 }
 
-.about h5:hover{
+a > h5:hover{
   color: $low-poly-shock;
+  text-decoration: underline;
+}
+
+.about h5{
+  margin-right: 2rem;
+  text-decoration: underline;
 }
 
 .about a{

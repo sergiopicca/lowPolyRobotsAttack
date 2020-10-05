@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a7b25e3e56badc240c0e67a21b59ce1",
+    "revision": "ef51d843302f753565ffc96e66c0b143",
     "url": "/lowPolyRobotsAttack/index.html"
   },
   {
-    "revision": "a40653951ada7449f8e2",
-    "url": "/lowPolyRobotsAttack/static/css/main.51048bf1.chunk.css"
+    "revision": "8148d89d7441460af691",
+    "url": "/lowPolyRobotsAttack/static/css/main.0a635c1d.chunk.css"
   },
   {
-    "revision": "22e1d3ebcc1c39738952",
-    "url": "/lowPolyRobotsAttack/static/js/2.7d5d317d.chunk.js"
+    "revision": "2df4a1ea0daebd2e3895",
+    "url": "/lowPolyRobotsAttack/static/js/2.a82146af.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/lowPolyRobotsAttack/static/js/2.7d5d317d.chunk.js.LICENSE.txt"
+    "url": "/lowPolyRobotsAttack/static/js/2.a82146af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a40653951ada7449f8e2",
-    "url": "/lowPolyRobotsAttack/static/js/main.39f87981.chunk.js"
+    "revision": "8148d89d7441460af691",
+    "url": "/lowPolyRobotsAttack/static/js/main.b2f3ccbd.chunk.js"
   },
   {
     "revision": "8317a05591a569bbbbe6",

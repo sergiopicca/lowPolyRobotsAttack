@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lowPolyRobotsAttack/static/css/main.51048bf1.chunk.css",
-    "main.js": "/lowPolyRobotsAttack/static/js/main.39f87981.chunk.js",
-    "main.js.map": "/lowPolyRobotsAttack/static/js/main.39f87981.chunk.js.map",
+    "main.css": "/lowPolyRobotsAttack/static/css/main.0a635c1d.chunk.css",
+    "main.js": "/lowPolyRobotsAttack/static/js/main.b2f3ccbd.chunk.js",
+    "main.js.map": "/lowPolyRobotsAttack/static/js/main.b2f3ccbd.chunk.js.map",
     "runtime-main.js": "/lowPolyRobotsAttack/static/js/runtime-main.f23141bf.js",
     "runtime-main.js.map": "/lowPolyRobotsAttack/static/js/runtime-main.f23141bf.js.map",
-    "static/js/2.7d5d317d.chunk.js": "/lowPolyRobotsAttack/static/js/2.7d5d317d.chunk.js",
-    "static/js/2.7d5d317d.chunk.js.map": "/lowPolyRobotsAttack/static/js/2.7d5d317d.chunk.js.map",
+    "static/js/2.a82146af.chunk.js": "/lowPolyRobotsAttack/static/js/2.a82146af.chunk.js",
+    "static/js/2.a82146af.chunk.js.map": "/lowPolyRobotsAttack/static/js/2.a82146af.chunk.js.map",
     "index.html": "/lowPolyRobotsAttack/index.html",
-    "precache-manifest.0623f3369d8b1256eb2b9e73281a86ff.js": "/lowPolyRobotsAttack/precache-manifest.0623f3369d8b1256eb2b9e73281a86ff.js",
+    "precache-manifest.3105c9ffe86861daa90ece6cb58eef63.js": "/lowPolyRobotsAttack/precache-manifest.3105c9ffe86861daa90ece6cb58eef63.js",
     "service-worker.js": "/lowPolyRobotsAttack/service-worker.js",
-    "static/css/main.51048bf1.chunk.css.map": "/lowPolyRobotsAttack/static/css/main.51048bf1.chunk.css.map",
-    "static/js/2.7d5d317d.chunk.js.LICENSE.txt": "/lowPolyRobotsAttack/static/js/2.7d5d317d.chunk.js.LICENSE.txt",
+    "static/css/main.0a635c1d.chunk.css.map": "/lowPolyRobotsAttack/static/css/main.0a635c1d.chunk.css.map",
+    "static/js/2.a82146af.chunk.js.LICENSE.txt": "/lowPolyRobotsAttack/static/js/2.a82146af.chunk.js.LICENSE.txt",
     "static/media/andrea_pixeled.png": "/lowPolyRobotsAttack/static/media/andrea_pixeled.a24a0160.png",
     "static/media/authors-info.scss": "/lowPolyRobotsAttack/static/media/ghost-background.30b04763.png",
     "static/media/ghost.2cf23201.svg": "/lowPolyRobotsAttack/static/media/ghost.2cf23201.svg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f23141bf.js",
-    "static/js/2.7d5d317d.chunk.js",
-    "static/css/main.51048bf1.chunk.css",
-    "static/js/main.39f87981.chunk.js"
+    "static/js/2.a82146af.chunk.js",
+    "static/css/main.0a635c1d.chunk.css",
+    "static/js/main.b2f3ccbd.chunk.js"
   ]
 }

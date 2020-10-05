@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lowPolyRobotsAttack/static/css/main.51048bf1.chunk.css",
-    "main.js": "/lowPolyRobotsAttack/static/js/main.73f06c47.chunk.js",
-    "main.js.map": "/lowPolyRobotsAttack/static/js/main.73f06c47.chunk.js.map",
+    "main.js": "/lowPolyRobotsAttack/static/js/main.39f87981.chunk.js",
+    "main.js.map": "/lowPolyRobotsAttack/static/js/main.39f87981.chunk.js.map",
     "runtime-main.js": "/lowPolyRobotsAttack/static/js/runtime-main.f23141bf.js",
     "runtime-main.js.map": "/lowPolyRobotsAttack/static/js/runtime-main.f23141bf.js.map",
     "static/js/2.7d5d317d.chunk.js": "/lowPolyRobotsAttack/static/js/2.7d5d317d.chunk.js",
     "static/js/2.7d5d317d.chunk.js.map": "/lowPolyRobotsAttack/static/js/2.7d5d317d.chunk.js.map",
     "index.html": "/lowPolyRobotsAttack/index.html",
-    "precache-manifest.32bc0df88bfde3b8af5d32e8cfdf17e6.js": "/lowPolyRobotsAttack/precache-manifest.32bc0df88bfde3b8af5d32e8cfdf17e6.js",
+    "precache-manifest.0623f3369d8b1256eb2b9e73281a86ff.js": "/lowPolyRobotsAttack/precache-manifest.0623f3369d8b1256eb2b9e73281a86ff.js",
     "service-worker.js": "/lowPolyRobotsAttack/service-worker.js",
     "static/css/main.51048bf1.chunk.css.map": "/lowPolyRobotsAttack/static/css/main.51048bf1.chunk.css.map",
     "static/js/2.7d5d317d.chunk.js.LICENSE.txt": "/lowPolyRobotsAttack/static/js/2.7d5d317d.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.f23141bf.js",
     "static/js/2.7d5d317d.chunk.js",
     "static/css/main.51048bf1.chunk.css",
-    "static/js/main.73f06c47.chunk.js"
+    "static/js/main.39f87981.chunk.js"
   ]
 }

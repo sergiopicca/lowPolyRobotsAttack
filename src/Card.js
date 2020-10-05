@@ -27,7 +27,7 @@ class Card extends React.Component {
     </div>
     <h4>{this.props.title}</h4>
    <p>{this.props.desc}</p>
-   <Link to={'/' + this.props.level}><button className='access-level'>GO!</button></Link>
+   <Link to={'/lowPolyRobotsAttack/' + this.props.level}><button className='access-level'>GO!</button></Link>
    </div>)
  }
 }

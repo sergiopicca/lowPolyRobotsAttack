@@ -13,11 +13,11 @@ const lvl3 = {title: 'Implementation choices', desc: '<h2 id="animations">Animat
 ReactDOM.render(
   <Router>
     <Switch>
-      <Route path="/about"><AuthorsInfo /></Route>
-      <Route path="/LVL1">{new Content(lvl1).render()}</Route>
-      <Route path="/LVL2">{new Content(lvl2).render()}</Route>
-      <Route path="/LVL3">{new Content(lvl3).render()}</Route>
-      <Route path="/"><App /></Route>
+      <Route path="/lowPolyRobotsAttack/about"><AuthorsInfo /></Route>
+      <Route path="/lowPolyRobotsAttack/LVL1">{new Content(lvl1).render()}</Route>
+      <Route path="/lowPolyRobotsAttack/LVL2">{new Content(lvl2).render()}</Route>
+      <Route path="/lowPolyRobotsAttack/LVL3">{new Content(lvl3).render()}</Route>
+      <Route path="/lowPolyRobotsAttack/"><App /></Route>
     </Switch>
   </Router>, 
   document.getElementById('root')

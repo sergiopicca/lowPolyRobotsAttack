@@ -10,14 +10,12 @@ $low-poly-black: #40383C;
 
 .authors-section{
  display: grid;
- grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
- justify-items: stretch;
- align-items: center;
- justify-content: stretch;
- justify-items: stretch;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .information-col{
+ justify-self: stretch;
+ align-self: stretch;
  background-color: $low-poly-black;
 }
 
@@ -29,9 +27,10 @@ $low-poly-black: #40383C;
 }
 
 .author-desc{
+ align-self: stretch;
  display: grid;
  grid-template-rows: 20% 40% 35%;
- grid-template-columns: 18rem 1fr;
+ grid-template-columns: 15rem 1fr;
  grid-template-areas: 
  "img author"
  "img task"
@@ -56,17 +55,67 @@ $low-poly-black: #40383C;
  grid-area: author;
 }
 
+.author-name.Sergio{
+ text-shadow: 0 3px 3px $low-poly-shock, 0 3px 3px $low-poly-shock, 0 6px 10px $low-poly-shock, 0 8px 40px $low-poly-shock;
+}
+
+
+.author-name.Andrea{
+ text-shadow: 0 3px 3px $low-poly-green, 0 3px 3px $low-poly-green, 0 6px 10px $low-poly-green, 0 8px 40px $low-poly-green;
+}
+
 .author-task{
  grid-area: task;
  font-family: 'VT323', monospace;
- font-size: 1.5rem;
  width: 90%;
 }
 
-.author-desc h5{
+.author-task p{
+ font-size: 2rem;
+}
+
+.author-links {
  grid-area: link;
+ align-self: center;
  font-family: 'VT323', monospace;
+}
+
+.author-links h5{
  font-size: 1.5rem;
+ position: relative;
+ display: inline;
+ bottom: 1rem;
+}
+
+.author-links span{
+ margin: 0.5rem;
+}
+
+.author-links span svg{
+ height: 3rem
+}
+
+.author-links span svg:last-child{
+ margin-left: 1rem;
+}
+
+.Sergio-label{
+ color: $low-poly-shock;
+}
+.Sergio-label a{
+ color: $low-poly-shock;
+}
+
+.Andrea-label{
+ color: $low-poly-green;
+}
+
+.Andrea-label a{
+ color: $low-poly-green;
+}
+
+.Andrea svg path{
+ fill: $low-poly-green;
 }
 
 /**
@@ -74,16 +123,16 @@ $low-poly-black: #40383C;
  * leaves his message
  */
 .ghost-col{
+ justify-self: stretch;
+ align-self: stretch;
  background-image: linear-gradient(rgba(99, 91, 91, 0.75), rgba($color: $low-poly-black, $alpha: 0.75)), url('../img/ghost-background.png');
- background-color: black;
  color: white;
- height: 100%;
  padding: 2rem;
 }
 
 .ghost-col .ghost-desc, .ghost-col h4{
  text-align: center;
- text-shadow: 0 6px 3px $low-poly-shock, 0 6px 8px $low-poly-shock, 0 8px 10px $low-poly-shock, 0 12px 40px $low-poly-shock;
+ text-shadow: 0 3px 3px $low-poly-shock, 0 3px 3px $low-poly-shock, 0 6px 8px $low-poly-shock, 0 6px 10px $low-poly-shock;
 }
 
 .ghost-col div{
@@ -117,3 +166,19 @@ $low-poly-black: #40383C;
  margin-top: 8rem;
  margin-bottom: 2rem;
 }
+
+/**
+ * Style of Github and Linkedin icons
+ */
+
+ #pixeled_git path:hover{
+  fill: rgb(184, 179, 179);
+  stroke: white;
+  stroke-width: 2px;
+ }
+
+ #pixeled_lnkdn path:hover{
+  fill: rgb(0, 119, 255);
+  stroke: white;
+  stroke-width: 2px;
+ }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20983985a0065f53038e85963b0e9b55",
+    "revision": "7bf0a1de6ea835a3ba381aacc7c04842",
     "url": "/lowPolyRobotsAttack/index.html"
   },
   {
-    "revision": "670fd478194a6cba4bb8",
-    "url": "/lowPolyRobotsAttack/static/css/main.879e015b.chunk.css"
+    "revision": "e6e5277790aecd037f4d",
+    "url": "/lowPolyRobotsAttack/static/css/main.63027289.chunk.css"
   },
   {
     "revision": "22e1d3ebcc1c39738952",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lowPolyRobotsAttack/static/js/2.7d5d317d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "670fd478194a6cba4bb8",
-    "url": "/lowPolyRobotsAttack/static/js/main.d2a5c616.chunk.js"
+    "revision": "e6e5277790aecd037f4d",
+    "url": "/lowPolyRobotsAttack/static/js/main.73f06c47.chunk.js"
   },
   {
     "revision": "8317a05591a569bbbbe6",
@@ -34,6 +34,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2cf23201ccf3a738a5dd61db2014a8eb",
     "url": "/lowPolyRobotsAttack/static/media/ghost.2cf23201.svg"
+  },
+  {
+    "revision": "5f99115747460e8cb7fa439ec86c1a0a",
+    "url": "/lowPolyRobotsAttack/static/media/pixeled_git.5f991157.svg"
+  },
+  {
+    "revision": "f97d3cddbec3ce8a6b825266f521546e",
+    "url": "/lowPolyRobotsAttack/static/media/pixeled_lnkdn.f97d3cdd.svg"
   },
   {
     "revision": "ac5c12615f49fbcff96139e8b6328264",

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af072740bda1a1520290b474f839a656",
+    "revision": "20983985a0065f53038e85963b0e9b55",
     "url": "/lowPolyRobotsAttack/index.html"
   },
   {
-    "revision": "5a27d7daaa6c8b21f280",
-    "url": "/lowPolyRobotsAttack/static/css/main.81f05c7f.chunk.css"
+    "revision": "670fd478194a6cba4bb8",
+    "url": "/lowPolyRobotsAttack/static/css/main.879e015b.chunk.css"
   },
   {
     "revision": "22e1d3ebcc1c39738952",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lowPolyRobotsAttack/static/js/2.7d5d317d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a27d7daaa6c8b21f280",
+    "revision": "670fd478194a6cba4bb8",
     "url": "/lowPolyRobotsAttack/static/js/main.d2a5c616.chunk.js"
   },
   {

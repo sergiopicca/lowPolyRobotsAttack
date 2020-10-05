@@ -7,11 +7,11 @@ import About from './About'
 class App extends React.Component {
   render() {
     return (
-      <React.StrictMode>
+      <div className='app'>
         <About />
         <Title />
         <Selection />
-      </React.StrictMode>
+      </div>
     );
   }
 }

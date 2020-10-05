@@ -8,7 +8,7 @@ $low-poly-green: #00FF27;
 $low-poly-blue: #00B9F0;
 $low-poly-dark: #303035;
 
-#root{
+.app{
   display: grid;
   grid-template-rows: auto auto auto;
   grid-template-columns: repeat(auto-fit,  1fr);
@@ -37,9 +37,18 @@ body {
   color: white;
   padding: 1rem;
 }
+
 .about h5{
   margin-right: 2rem;
   text-decoration: underline;
+}
+
+.about h5:hover{
+  color: $low-poly-shock;
+}
+
+.about a{
+  color: white;
 }
 
 /**

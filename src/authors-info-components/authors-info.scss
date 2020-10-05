@@ -1,0 +1,52 @@
+.authors-section{
+ display: grid;
+ grid-template-rows: 100%;
+ grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+ grid-template-areas: 
+ "ghost authors";
+ justify-items: stretch;
+ align-items: center;
+ border: 2px solid white;
+}
+
+.information-col{
+ grid-area: authors;
+ border: 2px solid red;
+}
+
+.author-desc{
+ display: grid;
+ grid-template-rows: auto auto auto;
+ grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+ grid-template-areas: 
+ "img author"
+ "img task"
+ "img link";
+ margin-top: 5rem;
+ margin-bottom: 10rem;
+}
+
+.img-container {
+ grid-area: img;
+ justify-content: center;
+ align-self: center;
+}
+
+.author-name{
+ grid-area: author;
+}
+
+.author-task{
+ grid-area: task;
+}
+
+.author-desc h5{
+ grid-area: link;
+}
+
+
+.ghost-col{
+ grid-area: ghost;
+ border: 2px solid greenyellow;
+ height: 100%;
+}

@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/lowPolyRobotsAttack/static/css/main.1c04e1a0.chunk.css",
-    "main.js": "/lowPolyRobotsAttack/static/js/main.933f6bfd.chunk.js",
-    "main.js.map": "/lowPolyRobotsAttack/static/js/main.933f6bfd.chunk.js.map",
+    "main.css": "/lowPolyRobotsAttack/static/css/main.81f05c7f.chunk.css",
+    "main.js": "/lowPolyRobotsAttack/static/js/main.d2a5c616.chunk.js",
+    "main.js.map": "/lowPolyRobotsAttack/static/js/main.d2a5c616.chunk.js.map",
     "runtime-main.js": "/lowPolyRobotsAttack/static/js/runtime-main.f23141bf.js",
     "runtime-main.js.map": "/lowPolyRobotsAttack/static/js/runtime-main.f23141bf.js.map",
-    "static/js/2.d3c53d67.chunk.js": "/lowPolyRobotsAttack/static/js/2.d3c53d67.chunk.js",
-    "static/js/2.d3c53d67.chunk.js.map": "/lowPolyRobotsAttack/static/js/2.d3c53d67.chunk.js.map",
+    "static/js/2.7d5d317d.chunk.js": "/lowPolyRobotsAttack/static/js/2.7d5d317d.chunk.js",
+    "static/js/2.7d5d317d.chunk.js.map": "/lowPolyRobotsAttack/static/js/2.7d5d317d.chunk.js.map",
     "index.html": "/lowPolyRobotsAttack/index.html",
-    "precache-manifest.954cb43f1a097b4235176db4a926d74d.js": "/lowPolyRobotsAttack/precache-manifest.954cb43f1a097b4235176db4a926d74d.js",
+    "precache-manifest.7f0f0dda2d0190673ca14721616b39b8.js": "/lowPolyRobotsAttack/precache-manifest.7f0f0dda2d0190673ca14721616b39b8.js",
     "service-worker.js": "/lowPolyRobotsAttack/service-worker.js",
-    "static/css/main.1c04e1a0.chunk.css.map": "/lowPolyRobotsAttack/static/css/main.1c04e1a0.chunk.css.map",
-    "static/js/2.d3c53d67.chunk.js.LICENSE.txt": "/lowPolyRobotsAttack/static/js/2.d3c53d67.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/lowPolyRobotsAttack/static/media/retrowave-background.ac5c1261.jpg"
+    "static/css/main.81f05c7f.chunk.css.map": "/lowPolyRobotsAttack/static/css/main.81f05c7f.chunk.css.map",
+    "static/js/2.7d5d317d.chunk.js.LICENSE.txt": "/lowPolyRobotsAttack/static/js/2.7d5d317d.chunk.js.LICENSE.txt",
+    "static/media/andrea_pixeled.png": "/lowPolyRobotsAttack/static/media/andrea_pixeled.a24a0160.png",
+    "static/media/authors-info.scss": "/lowPolyRobotsAttack/static/media/ghost-background.30b04763.png",
+    "static/media/ghost.2cf23201.svg": "/lowPolyRobotsAttack/static/media/ghost.2cf23201.svg",
+    "static/media/index.scss": "/lowPolyRobotsAttack/static/media/retrowave-background.ac5c1261.jpg",
+    "static/media/sergio_pixeled.png": "/lowPolyRobotsAttack/static/media/sergio_pixeled.1dce4af6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f23141bf.js",
-    "static/js/2.d3c53d67.chunk.js",
-    "static/css/main.1c04e1a0.chunk.css",
-    "static/js/main.933f6bfd.chunk.js"
+    "static/js/2.7d5d317d.chunk.js",
+    "static/css/main.81f05c7f.chunk.css",
+    "static/js/main.d2a5c616.chunk.js"
   ]
 }

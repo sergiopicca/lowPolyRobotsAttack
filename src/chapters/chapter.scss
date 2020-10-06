@@ -36,7 +36,7 @@ $low-poly-dark: #303035;
  //font-size: 1.8vw;
 }
 
-.chapter-title{
+.chapter-title, .chapter-content h1{
   font-size: 2vw;
   color: $low-poly-pink;
   -webkit-animation: glow 1s ease-in-out infinite alternate;

@@ -8,6 +8,10 @@ $low-poly-green: #00FF27;
 $low-poly-blue: #00B9F0;
 $low-poly-dark: #303035;
 
+html{
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -17,6 +21,7 @@ body {
   background-size: cover;
   font-family: 'Press Start 2P', cursive;
   overflow-x: hidden;
+  position: relative;
 }
 
 .app{
@@ -78,11 +83,11 @@ a > h5:hover{
  * The tile of the project will shine 
  */
 .title h1 {
-  font-size: 3rem;
+  font-size: 3vw;
 }
 
 .glow {
-  font-size: 3rem;
+  font-size: 3vw;
   color: $low-poly-pink;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -101,45 +106,57 @@ a > h5:hover{
 
 .title h4 {
   color: $low-poly-pink;
+  font-size: 1vw;
 }
 
 .title h5{
   color: $low-poly-purple;
-  font-size: 1rem;
+  font-size: 1vw;
 }
 
 .title h6{
   color: white;
+  font-size: 1vw;
 }
 
 /**
  * Style of the level selection section 
  */
 .lvl-selection{
-  align-self: stretch;
-  justify-self: stretch;
+  align-self: center;
+  justify-self: center;
+  height: 100%;
+  width: 100%;
   grid-area: level-selection;
   background-color: rgba($color: #000000, $alpha: .6);
 }
 
 .lvl-selection .card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  align-items: center;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  align-self: center;
+  text-align: center;
   grid-gap: 2.5rem;
-  padding: 3.5rem;
+  padding: 2vw;
 }
 
 .card{
   justify-self: center;
-  padding: 1rem;
-  border: 2px solid $low-poly-blue;
-  height: 95%;
+  padding: 2vw;
   width: 80%;
+  border: 2px solid $low-poly-blue;
   color: white;
   text-align: center;
   transition-timing-function: ease-out;
   transition: 0.2s;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: 
+  "lvl"
+  "ttl"
+  "short-desc"
+  "card-btn";
 }
 
 .card:hover{
@@ -163,21 +180,39 @@ a > h5:hover{
   }
 }
 
+.card div{
+  grid-area: lvl;
+  align-self: center;
+  justify-self: center;
+  font-size: 2vw;
+}
+
 .card h4{
+  grid-area: ttl;
   color: $low-poly-blue;
+  font-size: 1.2vw;
+  align-self: center;
+  justify-self: center;
 }
 
 .card p{
+  grid-area: short-desc;
   /* margin: 2vh; */
   text-align: center;
-  font-size: 0.95rem;
+  font-size: 1vw;
+  width: 100%;
+  align-self: start;
+  justify-self: start;
 }
 
 .card button {
-  margin-top: 3vh;
-  margin-bottom: 4vh;
+  align-self: start;
+  justify-self: start;
+  grid-area: card-btn;
+  margin-top: 1vw;
   width: 100%;
-  height: 20%;
+  height: 100%;
+  font-size: 2vw;
   font-family: 'Press Start 2P', cursive;
   background-color: $low-poly-blue;
   border: none;

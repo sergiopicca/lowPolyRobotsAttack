@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lowPolyRobotsAttack/static/css/main.21df46b5.chunk.css",
+    "main.css": "/lowPolyRobotsAttack/static/css/main.fe83f13c.chunk.css",
     "main.js": "/lowPolyRobotsAttack/static/js/main.144962f7.chunk.js",
     "main.js.map": "/lowPolyRobotsAttack/static/js/main.144962f7.chunk.js.map",
     "runtime-main.js": "/lowPolyRobotsAttack/static/js/runtime-main.f23141bf.js",
@@ -8,9 +8,9 @@
     "static/js/2.a82146af.chunk.js": "/lowPolyRobotsAttack/static/js/2.a82146af.chunk.js",
     "static/js/2.a82146af.chunk.js.map": "/lowPolyRobotsAttack/static/js/2.a82146af.chunk.js.map",
     "index.html": "/lowPolyRobotsAttack/index.html",
-    "precache-manifest.2ef419b15d108f0ad83fc14da96f05d3.js": "/lowPolyRobotsAttack/precache-manifest.2ef419b15d108f0ad83fc14da96f05d3.js",
+    "precache-manifest.67ff3ea237993fee62a7e7b14dbe9901.js": "/lowPolyRobotsAttack/precache-manifest.67ff3ea237993fee62a7e7b14dbe9901.js",
     "service-worker.js": "/lowPolyRobotsAttack/service-worker.js",
-    "static/css/main.21df46b5.chunk.css.map": "/lowPolyRobotsAttack/static/css/main.21df46b5.chunk.css.map",
+    "static/css/main.fe83f13c.chunk.css.map": "/lowPolyRobotsAttack/static/css/main.fe83f13c.chunk.css.map",
     "static/js/2.a82146af.chunk.js.LICENSE.txt": "/lowPolyRobotsAttack/static/js/2.a82146af.chunk.js.LICENSE.txt",
     "static/media/andrea_pixeled.png": "/lowPolyRobotsAttack/static/media/andrea_pixeled.a24a0160.png",
     "static/media/authors-info.scss": "/lowPolyRobotsAttack/static/media/ghost-background.30b04763.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.f23141bf.js",
     "static/js/2.a82146af.chunk.js",
-    "static/css/main.21df46b5.chunk.css",
+    "static/css/main.fe83f13c.chunk.css",
     "static/js/main.144962f7.chunk.js"
   ]
 }

@@ -8,20 +8,21 @@ $low-poly-blue: #00B9F0;
 $low-poly-dark: #303035;
 $low-poly-black: #40383C;
 
+
 .authors-section{
  display: grid;
- grid-template-columns: repeat(auto-fit, minmax(445px, 1fr));
+ grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .information-col{
  justify-self: stretch;
  align-self: stretch;
- background-color: $low-poly-black;
+ height: 100%;
+ width: 100%;
 }
 
 .information-col h1{
- margin: 4rem;
- font-size: 4rem;
+ margin: 4vw;
  color: $low-poly-pink;
  text-shadow: 0 6px 3px $low-poly-shock, 0 6px 8px $low-poly-shock, 0 8px 10px $low-poly-shock, 0 12px 40px $low-poly-shock;
 }
@@ -29,13 +30,13 @@ $low-poly-black: #40383C;
 .author-desc{
  display: grid;
  grid-template-rows: 10% auto 35%;
- grid-template-columns: 15rem 1fr;
+ grid-template-columns: 40% 60%;
  grid-template-areas: 
  "img author"
  "img task"
  "img link";
- margin-top: 4rem;
- margin-bottom: 4rem;
+ margin-top: 2vw;
+ margin-bottom: 2vw;
  color: white;
 }
 
@@ -46,12 +47,14 @@ $low-poly-black: #40383C;
 }
 
 .img-container img{
- height: 15rem;
- width: 15rem;
+ height: 90%;
+ width: 100%;
 }
 
 .author-name{
  grid-area: author;
+ align-self: stretch;
+ justify-self: start;
 }
 
 .author-name.Sergio{
@@ -65,8 +68,10 @@ $low-poly-black: #40383C;
 
 .author-task{
  grid-area: task;
+ align-self: stretch;
+ justify-self: start;
  font-family: 'VT323', monospace;
- width: 90%;
+ width: 80%;
 }
 
 .author-task p{
@@ -75,12 +80,12 @@ $low-poly-black: #40383C;
 
 .author-links {
  grid-area: link;
- align-self: center;
+ align-self: stretch;
+ justify-self: start;
  font-family: 'VT323', monospace;
 }
 
 .author-links h5{
- font-size: 1.5rem;
  display: inline;
  position: relative;
  bottom: 1rem;
@@ -120,13 +125,13 @@ $low-poly-black: #40383C;
 .ghost-col{
  justify-self: stretch;
  align-self: stretch;
- background-image: linear-gradient(rgba(99, 91, 91, 0.75), rgba($color: $low-poly-black, $alpha: 0.75)), url('../img/ghost-background.png');
+ // background-image: linear-gradient(rgba(99, 91, 91, 0.75), rgba($color: $low-poly-black, $alpha: 0.75)), url('../img/ghost-background.png');
  color: white;
- padding: 2rem;
+ padding: 2vw;
+ text-align: center;
 }
 
 .ghost-col .ghost-desc, .ghost-col h4{
- text-align: center;
  text-shadow: 0 3px 3px $low-poly-shock, 0 3px 3px $low-poly-shock, 0 6px 8px $low-poly-shock, 0 6px 10px $low-poly-shock;
 }
 
@@ -152,14 +157,10 @@ $low-poly-black: #40383C;
  }
 }
 
-.ghost-col h5{
- width: 90%;
- margin: 2rem;
-}
 
 .ghost-col h4{
- margin-top: 8rem;
- margin-bottom: 2rem;
+ margin-top: 8vw;
+ margin-bottom: 2vw;
 }
 
 /**

@@ -8,36 +8,31 @@ $low-poly-blue: #00B9F0;
 $low-poly-dark: #303035;
 
 .chapter{
- padding: 2rem;
+ padding: 4vw;
  background-color: $low-poly-dark;
 }
 
 .chapter h2 {
  color: $low-poly-shock;
- font-size: 2vw;
 }
 
 .chapter h3 {
  color: $low-poly-pink;
  text-decoration: underline;
- font-size: 2vw;
 }
 
 .chapter h5 {
  color: white;
  text-decoration: underline;
- //font-size: 2vw;
 }
 
 .chapter p{
  color: white;
  width: 90vw;
  font-family: 'VT323', monospace;
- //font-size: 1.8vw;
 }
 
 .chapter-title, .chapter-content h1{
-  font-size: 2vw;
   color: $low-poly-pink;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;

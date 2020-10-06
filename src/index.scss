@@ -22,13 +22,10 @@ body {
 .app{
   display: grid;
   grid-template-rows: auto auto auto;
-  grid-template-columns: repeat(auto-fit,  1fr);
   grid-template-areas: 
   "about"
   "title"
   "level-selection";
-  justify-content: stretch;
-  justify-items: stretch;
   grid-gap: 1em;
 }
 /**
@@ -65,8 +62,8 @@ a > h5:hover{
  */
 .title{
   grid-area: title;
-  height: 100%;
-  width: 100%;
+  justify-self: stretch;
+  align-self: stretch;
   text-align: center;
 }
 
@@ -119,13 +116,15 @@ a > h5:hover{
  * Style of the level selection section 
  */
 .lvl-selection{
+  align-self: stretch;
+  justify-self: stretch;
   grid-area: level-selection;
   background-color: rgba($color: #000000, $alpha: .6);
-  width: 100%;
 }
 
 .lvl-selection .card-container {
   display: grid;
+  grid-template-rows: 18vw;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   align-items: center;
   grid-gap: 2.5rem;
@@ -136,7 +135,7 @@ a > h5:hover{
   justify-self: center;
   padding: 1rem;
   border: 2px solid $low-poly-blue;
-  height: 95%;
+  height: 100%;
   width: 80%;
   color: white;
   text-align: center;

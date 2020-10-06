@@ -10,8 +10,6 @@ $low-poly-dark: #303035;
 .chapter{
  padding: 2rem;
  background-color: $low-poly-dark;
- height: 100%;
- width: 100%;
 }
 
 .chapter h2 {
@@ -33,9 +31,9 @@ $low-poly-dark: #303035;
 
 .chapter p{
  color: white;
- width: 90%;
+ width: 90vw;
  font-family: 'VT323', monospace;
- font-size: 1.8vw;
+ //font-size: 1.8vw;
 }
 
 .chapter-title{

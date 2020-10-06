@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lowPolyRobotsAttack/static/css/main.63c09073.chunk.css",
+    "main.css": "/lowPolyRobotsAttack/static/css/main.3da2e074.chunk.css",
     "main.js": "/lowPolyRobotsAttack/static/js/main.7e3dc1a7.chunk.js",
     "main.js.map": "/lowPolyRobotsAttack/static/js/main.7e3dc1a7.chunk.js.map",
     "runtime-main.js": "/lowPolyRobotsAttack/static/js/runtime-main.f23141bf.js",
@@ -8,22 +8,21 @@
     "static/js/2.a82146af.chunk.js": "/lowPolyRobotsAttack/static/js/2.a82146af.chunk.js",
     "static/js/2.a82146af.chunk.js.map": "/lowPolyRobotsAttack/static/js/2.a82146af.chunk.js.map",
     "index.html": "/lowPolyRobotsAttack/index.html",
-    "precache-manifest.7c8ef16ad4ef39907ca32bf5a2eebd99.js": "/lowPolyRobotsAttack/precache-manifest.7c8ef16ad4ef39907ca32bf5a2eebd99.js",
+    "precache-manifest.caf10828184c49f107fae56aff18b937.js": "/lowPolyRobotsAttack/precache-manifest.caf10828184c49f107fae56aff18b937.js",
     "service-worker.js": "/lowPolyRobotsAttack/service-worker.js",
-    "static/css/main.63c09073.chunk.css.map": "/lowPolyRobotsAttack/static/css/main.63c09073.chunk.css.map",
+    "static/css/main.3da2e074.chunk.css.map": "/lowPolyRobotsAttack/static/css/main.3da2e074.chunk.css.map",
     "static/js/2.a82146af.chunk.js.LICENSE.txt": "/lowPolyRobotsAttack/static/js/2.a82146af.chunk.js.LICENSE.txt",
     "static/media/andrea_pixeled.png": "/lowPolyRobotsAttack/static/media/andrea_pixeled.a24a0160.png",
-    "static/media/authors-info.scss": "/lowPolyRobotsAttack/static/media/ghost-background.30b04763.png",
+    "static/media/index.scss": "/lowPolyRobotsAttack/static/media/background.b596faa7.gif",
     "static/media/ghost.2cf23201.svg": "/lowPolyRobotsAttack/static/media/ghost.2cf23201.svg",
     "static/media/pixeled_git.5f991157.svg": "/lowPolyRobotsAttack/static/media/pixeled_git.5f991157.svg",
     "static/media/pixeled_lnkdn.f97d3cdd.svg": "/lowPolyRobotsAttack/static/media/pixeled_lnkdn.f97d3cdd.svg",
-    "static/media/index.scss": "/lowPolyRobotsAttack/static/media/retrowave-background.ac5c1261.jpg",
     "static/media/sergio_pixeled.png": "/lowPolyRobotsAttack/static/media/sergio_pixeled.1dce4af6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f23141bf.js",
     "static/js/2.a82146af.chunk.js",
-    "static/css/main.63c09073.chunk.css",
+    "static/css/main.3da2e074.chunk.css",
     "static/js/main.7e3dc1a7.chunk.js"
   ]
 }

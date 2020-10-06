@@ -16,6 +16,7 @@ body {
   background-image: linear-gradient(rgba(34, 33, 33, 0.75),rgba(34, 33, 33, 0.75)), url('./img/retrowave-background.jpg');
   background-size: cover;
   font-family: 'Press Start 2P', cursive;
+  overflow-x: hidden;
 }
 
 .app{

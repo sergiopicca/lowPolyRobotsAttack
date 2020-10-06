@@ -10,30 +10,36 @@ $low-poly-dark: #303035;
 .chapter{
  padding: 2rem;
  background-color: $low-poly-dark;
+ height: 100%;
+ width: 100%;
 }
 
 .chapter h2 {
  color: $low-poly-shock;
+ font-size: 2vw;
 }
 
 .chapter h3 {
  color: $low-poly-pink;
  text-decoration: underline;
+ font-size: 2vw;
 }
 
 .chapter h5 {
  color: white;
  text-decoration: underline;
+ //font-size: 2vw;
 }
 
 .chapter p{
  color: white;
+ width: 90%;
  font-family: 'VT323', monospace;
- font-size: 2rem;
+ font-size: 1.8vw;
 }
 
 .chapter-title{
-  font-size: 1rem;
+  font-size: 2vw;
   color: $low-poly-pink;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;

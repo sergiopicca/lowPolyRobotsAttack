@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lowPolyRobotsAttack/precache-manifest.726bc6edd24f3808a4d8a1811515200b.js"
+  "/lowPolyRobotsAttack/precache-manifest.2ef419b15d108f0ad83fc14da96f05d3.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+$low-poly-pink: #FF83CF;
+$low-poly-purple: #D11087;
+$low-poly-shock: #FF3CC3;
+$low-poly-green: #00FF27;
+$low-poly-blue: #00B9F0;
+$low-poly-dark: #303035;
+
+.chapter{
+ padding: 2rem;
+ background-color: $low-poly-dark;
+}
+
+.chapter h2 {
+ color: $low-poly-shock;
+}
+
+.chapter h3 {
+ color: $low-poly-pink;
+ text-decoration: underline;
+}
+
+.chapter h5 {
+ color: white;
+ text-decoration: underline;
+}
+
+.chapter p{
+ color: white;
+ font-family: 'VT323', monospace;
+ font-size: 2rem;
+}
+
+.chapter-title{
+  font-size: 1rem;
+  color: $low-poly-pink;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 6px 3px $low-poly-shock, 0 6px 8px $low-poly-shock, 0 8px 10px $low-poly-shock, 0 12px 40px $low-poly-shock;
+  }
+  to {
+    text-shadow: 0 6px 3px $low-poly-purple, 0 6px 8px $low-poly-purple, 0 8px 10px $low-poly-purple, 0 12px 40px $low-poly-purple;
+  }
+ }

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 class Card extends React.Component {
  constructor(props){
@@ -15,7 +14,7 @@ class Card extends React.Component {
     </div>
     <h4>{this.props.title}</h4>
    <p>{this.props.desc}</p>
-   <a href="https://as-devteam.github.io/LowPolyRobots-InteractiveGraphics/"><button className='access-level'>PLAY!</button></a>
+   <button className='access-level'>PLAY!</button>
    </div>)
  }
  
@@ -27,7 +26,7 @@ class Card extends React.Component {
     </div>
     <h4>{this.props.title}</h4>
    <p>{this.props.desc}</p>
-   <Link to={'/lowPolyRobotsAttack/' + this.props.level}><button className='access-level'>GO!</button></Link>
+   <button className='access-level'>GO!</button>
    </div>)
  }
 }

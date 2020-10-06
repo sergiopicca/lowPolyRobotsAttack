@@ -6,7 +6,7 @@ class GhostCol extends React.Component {
  render() {
    return (
     <div className='ghost-col'>
-      <Link to='/lowPolyRobotsAttack/'><h5> &#x3C;&#x3C; BACK TO THE HOMEPAGE</h5></Link>
+      <Link to='/'><h5> &#x3C;&#x3C; BACK TO THE HOMEPAGE</h5></Link>
       <h4>What does the ghost say?</h4>
       <div>
         <GhostLogo />

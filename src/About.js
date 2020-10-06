@@ -5,7 +5,7 @@ class About extends React.Component {
  render() {
    return (
    <div className='about'>
-    <Link to='/lowPolyRobotsAttack/about'><h5>About us</h5></Link>
+    <Link to='/about'><h5>About us</h5></Link>
    </div>)
  }
 }

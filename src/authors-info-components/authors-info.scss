@@ -28,6 +28,7 @@ $low-poly-black: #40383C;
 }
 
 .author-desc{
+ overflow: hidden;
  display: grid;
  grid-template-rows: 10% auto 35%;
  grid-template-columns: 40% 60%;
